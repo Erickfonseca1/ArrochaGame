@@ -1,7 +1,13 @@
 package com.example.arrochagame.game
 
-enum class Status {
+enum class GameStatus {
     EXECUTANDO,
     GANHOU,
     PERDEU
+}
+
+enum class ChuteStatus {
+    IGUAL,
+    MAIOR,
+    MENOR
 }
